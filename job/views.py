@@ -11,8 +11,8 @@ def about(request):
 def job_listing(request):
     return render(request, 'job-listings.html')
 
-def job(request):
-    return render(request, 'job.html')
+def blog(request):
+    return render(request, 'blog.html')
 
 def job_single(request):
     return render(request, 'job-single.html')
@@ -25,3 +25,5 @@ def login(request):
 
 def post_job(request):
     return render(request, 'post-job.html')
+def students(request):
+    return render(request, 'students.html')
